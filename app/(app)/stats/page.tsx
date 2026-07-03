@@ -1,0 +1,2 @@
+import {books} from '@/lib/mock'
+export default function Stats(){return <div className="space-y-6"><h2 className="text-4xl font-black">Statistiques</h2><div className="grid gap-4 md:grid-cols-3">{['Bibliothèque','Justine','Marie'].map(x=><div key={x} className="rounded-3xl bg-white p-6 shadow-soft"><h3 className="text-2xl font-black">{x}</h3><p className="mt-4 text-5xl font-black text-spice">{books.length}</p><p>livres suivis</p></div>)}</div></div>}

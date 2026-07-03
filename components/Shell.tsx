@@ -1,0 +1,2 @@
+import { Nav } from './Nav'
+export function Shell({children}:{children:React.ReactNode}){return <><header className="mx-auto flex max-w-6xl items-center gap-4 px-5 py-6"><div className="grid h-14 w-14 place-items-center rounded-2xl bg-spice text-2xl text-white">📚</div><div><h1 className="text-3xl font-black text-spice">Chapter<br/>& Spice</h1></div></header><Nav/><main className="mx-auto max-w-6xl px-5 pb-28 pt-6 md:pb-10">{children}</main></>}

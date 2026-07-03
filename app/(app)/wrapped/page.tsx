@@ -1,0 +1,1 @@
+export default function Wrapped(){return <div className="rounded-[2rem] bg-gradient-to-br from-spice to-ink p-8 text-white shadow-soft"><p className="text-xl font-bold">Justine 2026</p><h2 className="mt-4 text-6xl font-black">Ton année lecture</h2><p className="mt-6 text-2xl">Top livres, tropes préférés, spicy moyen et book boyfriend ranking.</p></div>}

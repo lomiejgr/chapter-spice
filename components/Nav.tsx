@@ -1,0 +1,3 @@
+import Link from 'next/link'
+const items=[['/','Accueil'],['/library','Bibliothèque'],['/add','Ajouter'],['/readers','Lectrices'],['/recommendations','Recos'],['/stats','Stats'],['/wrapped','Wrapped']]
+export function Nav(){return <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-blush bg-white/90 backdrop-blur md:sticky md:top-0 md:bottom-auto"><div className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-3 py-3">{items.map(([href,label])=><Link key={href} href={href} className="rounded-full px-4 py-2 text-sm font-bold text-spice hover:bg-blush">{label}</Link>)}</div></nav>}
